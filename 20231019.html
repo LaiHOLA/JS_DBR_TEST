@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<link rel="manifest" href="/manifest.json">
+<link rel="manifest" href="./manifest.json">
 <meta name="theme-color" content="#B12A34">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-title" content="sample for ios">
@@ -10,12 +10,12 @@
 <html>
 
 <body>
-    <script src="/dist/dbr.js"></script>
+    <script src="./dist/dbr.js"></script>
     <script>
         // Specifies a license, you can visit https://www.dynamsoft.com/customer/license/trialLicense?ver=9.6.31&utm_source=zip&product=dbr&package=js to get your own trial license good for 30 days. 
         let error = Dynamsoft.DBR.BarcodeScanner.license = "DLS2eyJoYW5kc2hha2VDb2RlIjoiMTAyMjg0NTM2LTEwMjMxMzk1MiIsIm1haW5TZXJ2ZXJVUkwiOiJodHRwczovL21kbHMuZHluYW1zb2Z0b25saW5lLmNvbS8iLCJvcmdhbml6YXRpb25JRCI6IjEwMjI4NDUzNiIsInN0YW5kYnlTZXJ2ZXJVUkwiOiJodHRwczovL3NkbHMuZHluYW1zb2Z0b25saW5lLmNvbS8iLCJjaGVja0NvZGUiOi01NzI4OTMxOH0=";
-        Dynamsoft.DBR.BarcodeScanner.defaultUIElementURL = "/dist/dbr.ui.html";
-        Dynamsoft.DBR.BarcodeScanner.engineResourcePath = "/dist/";
+        Dynamsoft.DBR.BarcodeScanner.defaultUIElementURL = "./dist/dbr.ui.html";
+        Dynamsoft.DBR.BarcodeScanner.engineResourcePath = "./dist/";
         Dynamsoft.DBR.BarcodeReader.deviceFriendlyName = "Alex_Test";
         alert(error);
         // Initializes and uses the SDK
